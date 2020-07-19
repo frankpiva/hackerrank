@@ -95,14 +95,13 @@ then the total cost will be
 . 
 """
 
-from itertools import permutations
 import math
 import os
 import random
 import re
 import sys
 
-# approach: check the difference of all possibilites, take minimum
+# approach: check the difference of all possibilites, take the minimum
 # memory: O(n^2 - 1), where n is the dimensions of the square
 # runtime: O(n^2 - 1)
 def formingMagicSquare(s):
