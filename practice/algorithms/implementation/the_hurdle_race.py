@@ -88,7 +88,7 @@ import re
 import sys
 
 # approach: find tallest hurdle, compare to maximum jumping height
-# memory: O(n)
+# memory: O(1)
 # runtime: O(n)
 def hurdleRace(k, height):
     tallestHurdle = max(height)
